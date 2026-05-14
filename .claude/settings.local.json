@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\shira\\\\OneDrive\\\\שולחן העבודה\\\\שירה - אוניברסיטה\\\\שנה ב\\\\מנהל עסקים\\\\קורסי בחירה\\\\מבוא לבסיסי נתונים ובינה עסקית\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Out-String)",
+      "PowerShell(tree \"C:\\\\Users\\\\shira\\\\OneDrive\\\\שולחן העבודה\\\\שירה - אוניברסיטה\\\\שנה ב\\\\מנהל עסקים\\\\קורסי בחירה\\\\מבוא לבסיסי נתונים ובינה עסקית\\\\crm\" -L 3)"
+    ]
+  }
+}
